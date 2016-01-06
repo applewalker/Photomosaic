@@ -251,7 +251,7 @@ int main()
 	}
 	clock_t finish=clock();
 	printf("运行时间 %f ms\n",(double(finish-start)));
-	//imshow("原图", src);
+	imshow("原图", src);
 	//imshow("新图", dst);
 	//imwrite("mosaic_gakki.bmp",dst);
 	int result;
